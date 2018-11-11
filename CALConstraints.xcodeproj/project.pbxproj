@@ -12,6 +12,9 @@
 		3EF06D8A2197A9F10050349D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF06D882197A9F10050349D /* Main.storyboard */; };
 		3EF06D8C2197A9F20050349D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF06D8B2197A9F20050349D /* Assets.xcassets */; };
 		3EF06D8F2197A9F20050349D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF06D8D2197A9F20050349D /* LaunchScreen.storyboard */; };
+		3EF06D982197AA810050349D /* CALRelationshipAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF06D972197AA810050349D /* CALRelationshipAttribute.swift */; };
+		3EF06D9A2197AA870050349D /* CALLayoutAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF06D992197AA870050349D /* CALLayoutAttribute.swift */; };
+		3EF06D9C2197AA8F0050349D /* CALConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF06D9B2197AA8F0050349D /* CALConstraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3EF06D8B2197A9F20050349D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EF06D8E2197A9F20050349D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EF06D902197A9F20050349D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF06D972197AA810050349D /* CALRelationshipAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALRelationshipAttribute.swift; sourceTree = "<group>"; };
+		3EF06D992197AA870050349D /* CALLayoutAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALLayoutAttribute.swift; sourceTree = "<group>"; };
+		3EF06D9B2197AA8F0050349D /* CALConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALConstraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,23 @@
 		3EF06D832197A9F10050349D /* CALConstraints */ = {
 			isa = PBXGroup;
 			children = (
+				3EF06D962197AA760050349D /* CALConstraints */,
 				3EF06D842197A9F10050349D /* AppDelegate.swift */,
 				3EF06D862197A9F10050349D /* ViewController.swift */,
 				3EF06D882197A9F10050349D /* Main.storyboard */,
 				3EF06D8B2197A9F20050349D /* Assets.xcassets */,
 				3EF06D8D2197A9F20050349D /* LaunchScreen.storyboard */,
 				3EF06D902197A9F20050349D /* Info.plist */,
+			);
+			path = CALConstraints;
+			sourceTree = "<group>";
+		};
+		3EF06D962197AA760050349D /* CALConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				3EF06D972197AA810050349D /* CALRelationshipAttribute.swift */,
+				3EF06D992197AA870050349D /* CALLayoutAttribute.swift */,
+				3EF06D9B2197AA8F0050349D /* CALConstraints.swift */,
 			);
 			path = CALConstraints;
 			sourceTree = "<group>";
@@ -136,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EF06D872197A9F10050349D /* ViewController.swift in Sources */,
+				3EF06D9A2197AA870050349D /* CALLayoutAttribute.swift in Sources */,
+				3EF06D9C2197AA8F0050349D /* CALConstraints.swift in Sources */,
 				3EF06D852197A9F10050349D /* AppDelegate.swift in Sources */,
+				3EF06D982197AA810050349D /* CALRelationshipAttribute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
